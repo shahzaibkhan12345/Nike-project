@@ -1,0 +1,115 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html,body{
+    width:100%;
+    height:100%;
+    font-family: sans-serif;
+}
+#main{
+    width:100%;
+    height:100%;
+    background-color: #D0D4D5;
+}
+#main #nav img{
+    width:70px;
+    margin-left: 50px;
+    height:30px;
+    /* border:2px solid blue; */
+}
+#main #nav .navcenter{
+    gap:20px;
+    cursor: pointer;
+    font-weight: 100;
+}
+#main #nav .navcenter h3{
+    font-size:18px;
+    margin-right:20px;
+}
+#main #nav{
+    width:100%;
+    height:10%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#main #nav .navcenter,#main #nav .navlast{
+    display:flex;
+    gap:15px;
+    cursor: pointer;
+    margin-right:20px;   
+}
+#main #nav .navlast{
+    font-size: 1.3rem;
+    gap:28px;
+    font-weight: 100;
+}
+#main #center{
+    display:flex;
+    width: 100%;
+    height:90%
+}
+#main #center #centerleft{
+    width:40%;
+    height:100%;
+    gap:10px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#main #center #centerleft h5{
+    color:rgba(0,0,0,0.5);
+    margin-left:-210px;
+}
+#main #center #centerleft h1{
+    font-size: 3.7rem;
+    margin-left:70px;
+}
+#main #center #centerleft p{
+    padding:0 70px;
+    line-height: 21px;
+    font-size: 13px;
+    color:rgba(0,0,0,0.8);
+}
+#main #center #centerleft button{
+    padding:12px 30px;
+    outline: none;
+    background-color: #000;
+    color:#fff;
+    border: none;
+    margin-top :20px;
+    font-size:15px;
+    font-weight: 700;
+    border-radius: 30px;
+    margin-left: -50%;
+    cursor: pointer;
+    border-top-left-radius: 10%;
+}
+#main #center #centerright{
+    position: relative;
+    white-space:nowrap;
+    overflow-x: auto;
+    width:60%;
+    height:95%;
+}
+#main #center #centerright::-webkit-scrollbar{
+    display:none;
+}
+#main #center #centerright .first{
+    width:40%;
+    height:70%;
+    position: relative;
+    display:inline-block;
+    margin-left:17px;
+    left:30px;
+    top:100px;
+}
+#main #center #centerright .first img{
+    position: absolute;
+    width:100%;
+    border-radius:50px;
+    height:100%;
+}
